@@ -1,0 +1,163 @@
+{
+  "Column": [
+    {
+      "TYPE": "TABLE",
+      "TABLE_NAME": "TABLE00872",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_TYPE_MOD": null,
+      "DATA_LENGTH": 22.0,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null,
+      "NULLABLE": "N",
+      "COLUMN_ID": 1.0,
+      "DEFAULT_LENGTH": null,
+      "DATA_DEFAULT": null,
+      "CHARACTER_SET_NAME": null,
+      "CHAR_LENGTH": 0.0,
+      "CHAR_USED": null,
+      "HIDDEN_COLUMN": "NO",
+      "VIRTUAL_COLUMN": "NO",
+      "SEGMENT_COLUMN_ID": 1.0,
+      "INTERNAL_COLUMN_ID": 1.0,
+      "HISTOGRAM": "NONE",
+      "QUALIFIED_COL_NAME": "ID",
+      "USER_GENERATED": "YES",
+      "DEFAULT_ON_NULL": "NO",
+      "IDENTITY_COLUMN": "NO",
+      "UNUSABLE_BEFORE": null,
+      "UNUSABLE_BEGINNING": null,
+      "COLLATION": null,
+      "COLLATED_COLUMN_ID": null,
+      "Encrypted": [],
+      "Identity": []
+    },
+    {
+      "TYPE": "TABLE",
+      "TABLE_NAME": "TABLE00872",
+      "COLUMN_NAME": "DESCRIPTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_TYPE_MOD": null,
+      "DATA_LENGTH": 200.0,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null,
+      "NULLABLE": "Y",
+      "COLUMN_ID": 2.0,
+      "DEFAULT_LENGTH": null,
+      "DATA_DEFAULT": null,
+      "CHARACTER_SET_NAME": "CHAR_CS",
+      "CHAR_LENGTH": 200.0,
+      "CHAR_USED": "B",
+      "HIDDEN_COLUMN": "NO",
+      "VIRTUAL_COLUMN": "NO",
+      "SEGMENT_COLUMN_ID": 2.0,
+      "INTERNAL_COLUMN_ID": 2.0,
+      "HISTOGRAM": "NONE",
+      "QUALIFIED_COL_NAME": "DESCRIPTION",
+      "USER_GENERATED": "YES",
+      "DEFAULT_ON_NULL": "NO",
+      "IDENTITY_COLUMN": "NO",
+      "UNUSABLE_BEFORE": null,
+      "UNUSABLE_BEGINNING": null,
+      "COLLATION": "USING_NLS_COMP",
+      "COLLATED_COLUMN_ID": null,
+      "Encrypted": [],
+      "Identity": []
+    }
+  ],
+  "Table_Constraints": [
+    {
+      "TYPE": "TABLE",
+      "TABLE_NAME": "TABLE00872",
+      "CONSTRAINT_NAME": "TABLE00872_PK",
+      "CONSTRAINT_TYPE": "P",
+      "SEARCH_CONDITION": null,
+      "SEARCH_CONDITION_VC": null,
+      "R_CONSTRAINT_NAME": null,
+      "DELETE_RULE": null,
+      "STATUS": "ENABLED",
+      "DEFERRABLE": "NOT DEFERRABLE",
+      "DEFERRED": "IMMEDIATE",
+      "VALIDATED": "VALIDATED",
+      "GENERATED": "USER NAME",
+      "BAD": null,
+      "RELY": null,
+      "INVALID": null,
+      "VIEW_RELATED": null,
+      "Columns": [
+        {
+          "TABLE_NAME": "TABLE00872",
+          "CONSTRAINT_NAME": "TABLE00872_PK",
+          "COLUMN_NAME": "ID",
+          "POSITION": 1.0
+        }
+      ],
+      "RemoteConstraint": []
+    },
+    {
+      "TYPE": "TABLE",
+      "TABLE_NAME": "TABLE00872",
+      "CONSTRAINT_NAME": "SYS_C0014444",
+      "CONSTRAINT_TYPE": "C",
+      "SEARCH_CONDITION": "",
+      "SEARCH_CONDITION_VC": "\"ID\" IS NOT NULL",
+      "R_CONSTRAINT_NAME": null,
+      "DELETE_RULE": null,
+      "STATUS": "ENABLED",
+      "DEFERRABLE": "NOT DEFERRABLE",
+      "DEFERRED": "IMMEDIATE",
+      "VALIDATED": "VALIDATED",
+      "GENERATED": "GENERATED NAME",
+      "BAD": null,
+      "RELY": null,
+      "INVALID": null,
+      "VIEW_RELATED": null,
+      "Columns": [
+        {
+          "TABLE_NAME": "TABLE00872",
+          "CONSTRAINT_NAME": "SYS_C0014444",
+          "COLUMN_NAME": "ID",
+          "POSITION": null
+        }
+      ],
+      "RemoteConstraint": []
+    }
+  ],
+  "Table_Indexes": [
+    {
+      "TYPE": "TABLE",
+      "TABLE_NAME": "TABLE00872",
+      "INDEX_NAME": "TABLE00872_PK",
+      "INDEX_TYPE": "NORMAL",
+      "TABLE_TYPE": "TABLE",
+      "UNIQUENESS": "UNIQUE",
+      "COMPRESSION": "DISABLED",
+      "PREFIX_LENGTH": null,
+      "INI_TRANS": 2.0,
+      "INCLUDE_COLUMN": null,
+      "STATUS": "VALID",
+      "TEMPORARY": "N",
+      "GENERATED": "N",
+      "SECONDARY": "N",
+      "PARAMETERS": null,
+      "JOIN_INDEX": "NO",
+      "IOT_REDUNDANT_PKEY_ELIM": "NO",
+      "DROPPED": "NO",
+      "VISIBILITY": "VISIBLE",
+      "Columns": [
+        {
+          "TABLE_NAME": "TABLE00872",
+          "INDEX_NAME": "TABLE00872_PK",
+          "COLUMN_NAME": "ID",
+          "COLUMN_POSITION": 1.0,
+          "COLUMN_LENGTH": 22.0,
+          "CHAR_LENGTH": 0.0,
+          "DESCEND": "ASC",
+          "COLLATED_COLUMN_ID": null
+        }
+      ],
+      "Expression": []
+    }
+  ],
+  "Table_Triggers": []
+}
